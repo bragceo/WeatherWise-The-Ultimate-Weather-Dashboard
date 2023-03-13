@@ -1,0 +1,94 @@
+.app-head {
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .app-head h1 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  .app-body {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .app-body .left-pane {
+    padding: 15px;
+    width: 25%;
+    background-color: #faf9f9;
+  }
+  
+  .app-body .right-pane {
+    width: 75%;
+  }
+  
+  .left-pane .search-btn {
+    background: rgb(69, 88, 182);
+    background: linear-gradient(
+      90deg,
+      rgba(69, 88, 182, 1) 0%,
+      rgba(42, 27, 107, 1) 100%
+    );
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* animate button like card */
+  .search-history div.card:hover {
+    cursor: pointer;
+  }
+  
+  .city-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .city-name img {
+    margin-left: 40px;
+    background: rgb(13, 110, 253);
+  }
+  
+  .weather-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+  
+  .weather-card {
+    min-height: 250px;
+    min-width: 180px;
+    border: none;
+    color: white;
+  }
+  
+  .weather-card .card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .app-body {
+      flex-direction: column;
+    }
+    .app-body .left-pane {
+      width: 100%;
+    }
+    .app-body .right-pane {
+      width: 100%;
+    }
+  }
