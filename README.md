@@ -47,6 +47,11 @@ I have verified and confirmed that the weather details are accurate as pulled fr
 
 I want to give a special thanks to my tutor Erik Hoverstein and several helpful tutorials, including: https://www.youtube.com/watch?v=KqZGuzrY9D4 and this course https://www.udemy.com/course/build-a-weather-app-with-ajax-using-open-weather-map-api/
 
+## Example of Functionality
+
+https://user-images.githubusercontent.com/119948453/224979137-4ccef56b-8a3b-4c25-9780-5297ee23ff48.mov
+
+<img width="1429" alt="Screen Shot 2023-03-13 at 8 01 59 PM" src="https://user-images.githubusercontent.com/119948453/224979290-8fbc2fb4-648c-4bef-bd66-0ee29ee49bd5.png">
 
 ## Your Task
 
