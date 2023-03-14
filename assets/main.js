@@ -1,7 +1,7 @@
 // Description: This file contains the main JavaScript code for the weather app
 
 // API Endpoints
-const geoLocationApi = 'http://api.openweathermap.org/geo/1.0/direct';
+const geoLocationApi = 'https://api.openweathermap.org/geo/1.0/direct';
 const weatherApi = 'https://api.openweathermap.org/data/2.5/forecast';
 const currentWeatherApi = 'https://api.openweathermap.org/data/2.5/weather';
 const apiKey = '408b7a452523faf2abdff368d1b97a5d';
